@@ -1,0 +1,77 @@
+:root {
+  --green: rgb(185, 197, 91);
+  --red-body: #9d3131;
+  --red-header: #a93a3ad2;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--red-body);
+  color: white;
+}
+
+header {
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--red-header);
+}
+
+header h1 {
+  font-size: 64px;
+  margin: 0;
+  display: inline;
+  font-family: Kablammo, cursive;
+  color: white;
+}
+
+img {
+  object-fit: cover;
+}
+
+span {
+  color: var(--green);
+}
+
+.btn-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+h1:hover,
+.btn-link:hover {
+  color: var(--green)
+}
+
+.movie-card {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.review-card {
+  cursor: pointer;
+}
+
+.error-msg {
+  color: pink;
+}
+
+.card-text {
+  color: var(--red-body);
+}
+
+.detail {
+  color: var(--red-header)
+}
+
+.profile-card {
+  background-color: var(--red-header);
+}
+
+.dropdown-menu,
+.modal-body {
+  background-color: var(--green);
+}

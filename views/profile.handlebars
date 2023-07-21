@@ -1,0 +1,29 @@
+<div class='container d-flex flex-column align-items-center'>
+<!-- User Profile Card -->
+<div class='col-12'>
+  <h2>Profile</h2>
+  <div class='card my-4 col-12'>
+      <div class='card-body'>
+        <div class='d-flex justify-content-between'>
+          <h4 class='card-title h1'>{{user.username}}</h4>
+          <h5 class='h1'><span>{{user.email}}</span></h5>
+        </div>
+        <p class='card-text'>{{review.content}}</p>
+      </div>
+    </div>
+  <h2>Reviews</h2>
+  {{#each reviews as |review|}}
+    <div data-id='{{review.imdb_id}}' class='card my-4 col-12 review-card'>
+      <div class='card-body'>
+        <div class='d-flex justify-content-between'>
+          <h4 class='card-title'>{{review.title}}</h4>
+          <h5 class='h1'>{{review.rating}} <span>/ 5</span></h5>
+        </div>
+        <p class='card-text'>{{review.content}}</p>
+        <small>Reviewed on {{formatTimestamp review.createdAt}}</small>
+      </div>
+    </div>
+  {{/each}}
+</div>
+
+<script src='/js/profile-reviews.js'></script>

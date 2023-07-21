@@ -1,0 +1,50 @@
+[
+  {
+    "imdb_id": "tt10366206",
+    "user_id": 1,
+    "rating": 5,
+    "content": "Sick movie!"
+  },
+  {
+    "imdb_id": "tt10366206",
+    "user_id": 2,
+    "content": "Good movie!",
+    "rating": 4
+  },
+  {
+    "imdb_id": "tt10366206",
+    "user_id": 3,
+    "rating": 1,
+    "content": "Trash movie!"
+  },
+  {
+    "imdb_id": "tt21361444",
+    "user_id": 4,
+    "content": "coooooooooool",
+    "rating": 3
+  },
+  {
+    "imdb_id": "tt21361444",
+    "user_id": 4,
+    "content": "Loved the visuals and the soundtrack",
+    "rating": 5
+  },
+  {
+    "imdb_id": "tt0910936",
+    "user_id": 5,
+    "rating": 3,
+    "content": "It was decent."
+  },
+  {
+    "imdb_id": "tt21361444",
+    "user_id": 5,
+    "rating": 3,
+    "content": "Awesome movie. A classic."
+  },
+  {
+    "imdb_id": "tt21361444",
+    "user_id": 2,
+    "rating": 5,
+    "content": "Spicy!"
+  }
+]
